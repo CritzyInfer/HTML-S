@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:darkcyan;
+    display: flex;
+    justify-content: center;
+    height: 100vb;
+    align-items: center;
+}
+.Paragrafos{
+    width: 550px;
+    height: 160px;
+    align-items: center;
+    justify-items: center;
+    display:flexbox;
+    border-radius: 4%;
+    background-color: rgb(224, 224, 224);
+}
+p{
+    text-align: center;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+a{
+    background-color: gray;
+    margin-bottom: -95px;
+    color: darkblue;
+    text-decoration: none;
+    padding: 7px;
+}
