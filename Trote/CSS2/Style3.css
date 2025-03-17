@@ -3,16 +3,18 @@ body{
     background-color:darkcyan;
     display: flex;
     justify-content: center;
-
     align-items: center;
+  
 }
 header{
-    position:fixed;
+    position:absolute;
     top: 15px;
     background-color: blue;
     font-size: 30px;
     font-family: 'Times New Roman', serif;
+
 }
+
 .Paragrafos{
     text-indent: 50px;
     align-items: center;
