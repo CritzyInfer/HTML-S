@@ -3,12 +3,20 @@ body{
     background-color:darkcyan;
     display: flex;
     justify-content: center;
-    height: 100vb;
+    height: 90vb;
     align-items: center;
 }
+header{
+    position: fixed;
+    top: 20px;
+    font-size: 30px;
+    background-color: blueviolet;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ''
+}
 .Paragrafos{
+    text-indent: 50px;
     width: 550px;
-    height: 160px;
+    height: 1150px;
     align-items: center;
     justify-items: center;
     display:flexbox;
@@ -16,15 +24,19 @@ body{
     background-color: rgb(224, 224, 224);
 }
 p{
-    text-align: center;
-    padding: 20px;
+    text-justify: center;
+    padding: 15px;
+    margin: 10px;
     padding-top: 10px;
 }
 
 a{
     background-color: gray;
-    margin-bottom: -95px;
     color: darkblue;
     text-decoration: none;
-    padding: 7px;
+    position:absolute;
+    bottom: 35px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10%;
 }
