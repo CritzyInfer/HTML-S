@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color:darkcyan;
+    background-color:rgb(35, 146, 7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ header{
     align-items: center;
     justify-items: center;
     display:flexbox;
-    border-radius: 4%;
+    border-radius: 10%;
     background-color: rgba(224, 224, 224, 0.685);
 }
 p{

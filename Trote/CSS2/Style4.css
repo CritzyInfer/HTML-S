@@ -1,24 +1,23 @@
 body{
     font-family: Arial, sans-serif;
-    background-color:darkcyan;
+    background-color:rgb(146, 96, 4);
     display: flex;
     justify-content: center;
-
     align-items: center;
 }
 header{
     position:fixed;
     top: 15px;
     background-color: blue;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Times New Roman', serif;
 }
 .Paragrafos{
-    text-indent: 50px;
+    text-indent: 55px;
     align-items: center;
     justify-items: center;
     display:flexbox;
-    border-radius: 4%;
+    border-radius: 5%;
     background-color: rgba(224, 224, 224, 0.685);
 }
 p{
@@ -33,7 +32,7 @@ a{
     text-decoration: none;
     position:absolute;
     bottom: 25px;
-    padding: 5px;
+    padding: 10px;
     font-size: 20px;
     border-radius: 10%;
     position: flexbox;
