@@ -14,6 +14,7 @@ header{
     font-family: 'Times New Roman', serif;
 }
 .Paragrafos{
+    top: 45px;
     text-indent: 55px;
     align-items: center;
     justify-items: center;
@@ -34,11 +35,12 @@ a{
     text-decoration: none;
     position:absolute;
     right: 0px;
-    bottom:5px;
+    display:flexbox;
+    bottom: 1px;
     padding: 10px;
     font-size: 20px;
     border-radius: 10%;
-    position: flexbox;
+    position: absolute;
 }
 
 .laranja{
@@ -61,4 +63,8 @@ a{
 }
 .vermelho{
     background-color: red;
+}
+.TT {
+    font-size: 15px;
+    font-weight: bold;
 }

@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:rgb(255, 198, 134);
+    display: flexbox;
+    height: 100vb;
+    justify-items: center;
+        
+}
+
+
+a{
+    background-color: gray;
+    color: darkblue;
+    text-decoration: none;
+    position:absolute;
+    right: 0px;
+    display:flexbox;
+    bottom: 35px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10%;
+    position: absolute;
+}
+
+.campos{
+   
+    margin: 20px;
+}
