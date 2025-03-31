@@ -10,25 +10,80 @@
 </head>
 
 <body>
-
-
-
     <h2>Calculando potuação</h2>
     <form>
-
         <div class="campos">
-            <label>Ação Social</label>
-            <input type="number" id="acaoSocial" />
 
-        </div>
-        <div class="campos">
-            <label>Homenagem</label>
-            <input type="number" id="Homenagem" />
-        </div>
-            <div class="campos">
-            <button type="button" onclick="calcular()">Calcular</button>
-            <label id="respostas"></label>
+            <label>Selecione a cor da equipe</label>
+            <select name="equipes" id="pet-select">
+                <option value="Laranja">Laranja</option>
+                <option value="Preto">Preto</option>
+                <option value="Roxa">Roxa</option>
+                <option value="Verde">Verde</option>
+                <option value="Vermelho">Vermelho</option>
+            </select>
+
+            <div class="LinhaTexto">
+
+                <div class="coluna1">
+                    <label>Ação Social (pts):</label>
+                    <input type="number" id="acaoSocial" />
+                </div>
+
+                <div class="coluna2">
+                    <label>Homenagem (pts):</label>
+                    <input type="number" id="Homenagem" />
+                </div>
+
+                <div class="coluna3">
+                    <label>Caixas de Leite (litros):</label>
+                    <input type="number" id="Leite" />
+                </div>
+
+                <div class="coluna4">
+                    <label>Kit De Alimentação (Avulso):</label>
+                    <input type="number" id="Kit" />
+                </div>
+
+                <div class="coluna5">
+                    <label>Caixa de suplementos (Avulso):</label>
+                    <input type="number" id="Suple" />
+                </div>
+
+                <div class="coluna6">
+                    <label>Pacote de Arroz (5kg):</label>
+                    <input type="number" id="PacArroz5kg" />
+                </div>
+
+                <div class="coluna7">
+                    <label>Pacote de Arroz (1kg):</label>
+                    <input type="number" id="PacArroz1kg" />
+                </div>
+
+                <div class="coluna8">
+                    <label>Pacote de Feijão (2kg):</label>
+                    <input type="number" id="PacFej2kg" />
+                </div>
+
+                <div class="coluna9">
+                    <label>Pacote de Feijão (1kg):</label>
+                    <input type="number" id="PacFej1kg" />
+                </div>
+
+                <div class="coluna10">
+                    <label>Pacote de Macarrao (400/500g):</label>
+                    <input type="number" id="Macarrao" />
+                </div>
+
+                <div class="coluna11">
+                    <label>Óleo (900ml):</label>
+                    <input type="number" id="Oleo" />
+                </div>
+
+                <button type="button" onclick="calcular()">Calcular</button>
+                <label id="soma" style="background-color: white; color: black;"></label>
             </div>
+        </div>
     </form>
     </div>
 

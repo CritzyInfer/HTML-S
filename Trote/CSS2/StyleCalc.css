@@ -1,20 +1,19 @@
-body{
+body {
     font-family: Arial, sans-serif;
-    background-color:rgb(255, 198, 134);
-    display: flexbox;
+    background-color: rgb(0, 114, 0);
     height: 100vb;
     justify-items: center;
-        
+
 }
 
 
-a{
+a {
     background-color: gray;
     color: darkblue;
     text-decoration: none;
-    position:absolute;
+    position: absolute;
     right: 0px;
-    display:flexbox;
+    display: flexbox;
     bottom: 35px;
     padding: 10px;
     font-size: 20px;
@@ -22,7 +21,92 @@ a{
     position: absolute;
 }
 
-.campos{
-   
-    margin: 20px;
+H2 {
+    color: rgb(113, 169, 253);
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.226);
+    border-radius: 10px;
+}
+
+.campos {
+    margin: 25px;
+    color: white;
+    justify-content: center;
+}
+
+.coluna1 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+.coluna2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+.coluna3 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+.coluna4 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+.coluna5 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+.coluna6 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+.coluna7 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+.coluna8 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+.coluna9 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+.coluna10 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+.coluna11 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+form {
+    padding: 5px;
+    background-color: rgba(134, 53, 53, 0.562);
+    border-radius: 5%;
+}
+
+.LinhaTexto {
+    clear: both;
+
 }

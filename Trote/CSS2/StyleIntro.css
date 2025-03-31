@@ -1,37 +1,39 @@
-body{
+body {
     font-family: Arial, sans-serif;
-    background-color:rgb(0, 255, 242);
+    background-color: rgb(0, 255, 242);
     display: flex;
     justify-content: center;
-
     align-items: center;
 }
-header{
-    position:fixed;
+
+header {
+    position: fixed;
     top: 15px;
     background-color: blue;
     font-size: 30px;
     font-family: 'Times New Roman', serif;
 }
-.Paragrafos{
+
+.Paragrafos {
     text-indent: 50px;
     align-items: center;
     justify-items: center;
-    display:flexbox;
+    display: flexbox;
     border-radius: 4%;
     background-color: rgba(224, 224, 224, 0.685);
 }
-p{
+
+p {
     text-justify: center;
     padding: 15px;
     padding-top: 30px;
 }
 
-a{
+a {
     background-color: gray;
     color: darkblue;
     text-decoration: none;
-    position:absolute;
+    position: absolute;
     bottom: 25px;
     padding: 5px;
     font-size: 20px;
