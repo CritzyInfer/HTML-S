@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(146, 96, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vb;
+}
+
+header {
+    position: absolute;
+    top: 15px;
+    background-color: blue;
+    font-size: 25px;
+    font-family: 'Times New Roman', serif;
+}
+
+.Paragrafos {
+    top: 45px;
+    text-indent: 55px;
+    align-items: center;
+    justify-items: center;
+    display: flexbox;
+    position: absolute;
+    border-radius: 5%;
+    background-color: rgba(224, 224, 224, 0.685);
+    padding-bottom: 5px;
+}
+
+p {
+    text-justify: center;
+    padding: 5px;
+    padding-top: 30px;
+}
+
+a {
+    background-color: gray;
+    color: darkblue;
+    text-decoration: none;
+    right: 0px;
+    display: flex;
+    bottom: 1px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10%;
+    position: fixed;
+}
+
+.laranja {
+    background-color: orange;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.preto {
+    background-color: black;
+    color: white
+}
+
+.verde {
+    background-color: green;
+}
+
+.roxo {
+    background-color: purple;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.TT {
+    font-size: 15px;
+    font-weight: bold;
+    bottom: 15px;
+    padding: 1px;
+}
+
+.TabelaMetas {
+    background-color: rgba(0, 141, 141, 0.466);
+    border-radius: 5%;
+    justify-self: center;
+    font-size: large;
+}
+
+.marcas {
+    text-align: center;
+    padding: 0.5px;
+
+}
