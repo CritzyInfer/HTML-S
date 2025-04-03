@@ -26,7 +26,7 @@ function calcular() {
             pontosKit = 4000 + ((Kit - 78) * 30) + ((suple - 39) * 15);
         } else if (Kit >= 19 && suple >= 10) {
             pontosKit = 1000 + ((Kit - 19) * 30) + ((suple - 10) * 15);
-        }
+}
     }
      // Adicionar pontosKit ao total
      soma = soma + pontosKit;
