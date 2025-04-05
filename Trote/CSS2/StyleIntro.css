@@ -1,42 +1,42 @@
-body{
+body {
     font-family: Arial, sans-serif;
-    background-color:darkcyan;
+    background-color: rgb(0, 255, 242);
     display: flex;
     justify-content: center;
-    height: 90vb;
     align-items: center;
-}
-header{
-    position: fixed;
-    top: 20px;
-    font-size: 30px;
-    background-color: blueviolet;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ''
-}
-.Paragrafos{
-    text-indent: 50px;
-    width: 550px;
-    height: 1150px;
-    align-items: center;
-    justify-items: center;
-    display:flexbox;
-    border-radius: 4%;
-    background-color: rgb(224, 224, 224);
-}
-p{
-    text-justify: center;
-    padding: 15px;
-    margin: 10px;
-    padding-top: 10px;
 }
 
-a{
+header {
+    position: fixed;
+    top: 15px;
+    background-color: blue;
+    font-size: 30px;
+    font-family: 'Times New Roman', serif;
+}
+
+.Paragrafos {
+    text-indent: 50px;
+    align-items: center;
+    justify-items: center;
+    display: flexbox;
+    border-radius: 4%;
+    background-color: rgba(224, 224, 224, 0.685);
+}
+
+p {
+    text-justify: center;
+    padding: 15px;
+    padding-top: 30px;
+}
+
+a {
     background-color: gray;
     color: darkblue;
     text-decoration: none;
-    position:absolute;
-    bottom: 35px;
+    position: absolute;
+    bottom: 25px;
     padding: 5px;
     font-size: 20px;
     border-radius: 10%;
+    position: flexbox;
 }
