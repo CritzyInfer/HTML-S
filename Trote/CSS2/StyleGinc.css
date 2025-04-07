@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 450vb;
+    height: 380vb;
 }
 
 header {
@@ -25,6 +25,7 @@ header {
     border-radius: 5%;
     background-color: rgba(224, 224, 224, 0.685);
     padding-bottom: 5px;
+    height: 373vb;
 }
 
 p {
@@ -37,13 +38,10 @@ a {
     background-color: gray;
     color: darkblue;
     text-decoration: none;
-    right: 0px;
-    display: flex;
-    bottom: 1px;
     padding: 10px;
     font-size: 20px;
     border-radius: 10%;
-    position: fixed;
+    position: flexbox;
 }
 
 .laranja {
@@ -89,5 +87,14 @@ a {
 .marcas {
     text-align: center;
     padding: 0.5px;
+
+}
+.Lista2{
+    border-radius: 25px;
+    background-color: rgba(3, 104, 71, 0.63);
+    list-style: none;
+    padding: 15px;
+    position: flex;
+    margin-right: 10px;
 
 }

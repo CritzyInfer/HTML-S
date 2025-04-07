@@ -1,17 +1,19 @@
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(146, 96, 4);
-    display: flex;
+    display: flexbox;
     justify-content: center;
     align-items: center;
+    height: 120vb;
 }
 
 header {
-    position: fixed;
-    top: 15px;
     background-color: blue;
     font-size: 25px;
+    text-align: center;
+    justify-self:center;
     font-family: 'Times New Roman', serif;
+    color: white;
 }
 
 .Paragrafos {
@@ -20,6 +22,7 @@ header {
     justify-items: center;
     display: flexbox;
     border-radius: 5%;
+    height: 105vb;
     background-color: rgba(224, 224, 224, 0.685);
 }
 
@@ -33,9 +36,9 @@ a {
     background-color: gray;
     color: darkblue;
     text-decoration: none;
-    position: absolute;
+    position:flex;
     bottom: 25px;
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;
     border-radius: 10%;
     position: flexbox;

@@ -21,6 +21,7 @@ header {
     display: flexbox;
     border-radius: 4%;
     background-color: rgba(224, 224, 224, 0.685);
+    height: 149vb;
 }
 
 p {
@@ -33,10 +34,10 @@ a {
     background-color: gray;
     color: darkblue;
     text-decoration: none;
-    position:absolute;
-    bottom: 8px;
+    position:flexbox;
+    margin-bottom: 5%;
     padding: 5px;
+    margin-bottom: 5px;
     font-size: 20px;
-    border-radius: 10%;
-    
+    border-radius: 10%; 
 }
