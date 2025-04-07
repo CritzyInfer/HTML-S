@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    position: fixed;
+    position: absolute;
     top: 15px;
     background-color: blue;
     font-size: 30px;
@@ -33,10 +33,10 @@ a {
     background-color: gray;
     color: darkblue;
     text-decoration: none;
-    position: absolute;
-    bottom: 25px;
+    position:absolute;
+    bottom: 8px;
     padding: 5px;
     font-size: 20px;
     border-radius: 10%;
-    position: flexbox;
+    
 }
