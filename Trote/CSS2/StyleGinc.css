@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 450px;
 
 }
 
@@ -26,13 +26,14 @@ header {
     border-radius: 5%;
     background-color: rgba(224, 224, 224, 0.685);
     padding-bottom: 5px;
-    height: 373vb;
+    height: 435vb;
 }
 
 p {
     text-justify: center;
-    padding: 5px;
-    padding-top: 30px;
+    text-indent: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 a {
@@ -80,7 +81,7 @@ a {
 
 .TabelaMetas {
     background-color: rgba(0, 141, 141, 0.466);
-    border-radius: 5%;
+    border-radius: 35px;
     justify-self: center;
     font-size: large;
 }
