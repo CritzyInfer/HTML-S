@@ -91,7 +91,8 @@ a {
     padding: 0.5px;
 
 }
-.Lista2{
+
+.Lista2 {
     border-radius: 25px;
     background-color: rgba(3, 104, 71, 0.63);
     list-style: none;
@@ -99,4 +100,14 @@ a {
     position: flex;
     margin-right: 10px;
 
+}
+
+.ListaAlt {
+    border-radius: 25px;
+    background-color: rgba(255, 169, 56, 0.63);
+    list-style: none;
+    padding: 15px;
+    position: flex;
+    margin-right: 10px;
+    text-justify:auto;
 }
