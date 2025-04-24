@@ -99,6 +99,10 @@ a {
     padding: 15px;
     position: flex;
     margin-right: 10px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
 .ListaAlt {
