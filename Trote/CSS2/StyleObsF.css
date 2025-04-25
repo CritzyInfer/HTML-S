@@ -1,28 +1,29 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(146, 96, 4);
-    display: flexbox; 
-    height: 120vb;
+    background-color: rgb(1, 180, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
+    position: absolute;
+    top: 15px;
     background-color: blue;
-    font-size: 25px;
-    text-align: center;
-    justify-self:center;
+    font-size: 30px;
     font-family: 'Times New Roman', serif;
-    color: white;
 }
 
 .Paragrafos {
-    text-indent: 55px;
+    text-indent: 50px;
+    margin: 30px;
     align-items: center;
     justify-items: center;
     display: flexbox;
     border-radius: 15px;
-    height: 105vb;
-    padding: 10px;
     background-color: rgba(224, 224, 224, 0.685);
+    height: 65vb;
+    margin-top: 55px;
 }
 
 p {
@@ -30,15 +31,14 @@ p {
     padding: 15px;
     padding-top: 30px;
 }
-
 a {
     background-color: gray;
     color: darkblue;
     text-decoration: none;
-    position:flex;
-    bottom: 25px;
     padding: 5px;
     font-size: 20px;
     border-radius: 10%;
+    display: flexbox;
     position: flexbox;
+
 }

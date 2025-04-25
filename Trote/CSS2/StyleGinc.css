@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 450px;
+    height: 940vb;
 
 }
 
@@ -12,6 +12,9 @@ header {
     position: absolute;
     top: 15px;
     background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
     font-size: 25px;
     font-family: 'Times New Roman', serif;
 }
@@ -23,10 +26,11 @@ header {
     justify-items: center;
     display: flexbox;
     position: absolute;
-    border-radius: 5%;
+    border-radius: 10px;
+    margin: 5px;
     background-color: rgba(224, 224, 224, 0.685);
     padding-bottom: 5px;
-    height: 900vb;
+    height: 930vb;
 }
 
 p {

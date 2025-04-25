@@ -12,6 +12,8 @@ header {
     top: 15px;
     background-color: blue;
     font-size: 30px;
+    border-radius: 5px;
+    color: white;
     font-family: 'Times New Roman', serif;
 
 }
@@ -21,7 +23,7 @@ header {
     align-items: center;
     justify-items: center;
     display: flexbox;
-    border-radius: 10%;
+    border-radius: 10px;
     background-color: rgba(224, 224, 224, 0.685);
 }
 

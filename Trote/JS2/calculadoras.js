@@ -14,6 +14,8 @@ function calcular() {
 
     soma = mascote + homenagem + (2 * (leite))
 
+    sangue = Number(document.getElementById("sangue").value)
+
     equipe = document.getElementById("equipe").value
     if (equipe == "Laranja") {
         if (kit >= 97 && suplemento >= 49) {
